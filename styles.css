@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url('bc.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/*HEADER*/
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url(../img/bc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.parisienne-regular {
+    color: rgba(255,215, 0);
+    font-size: 50px;
+    font-family: "Parisienne", cursive;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px   10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgba(255,215, 0, 0.555);
+    transition: .3s;
+}
+
+button {
+    border: 2px solid transparent;
+    background: rgba(0, 0, 0, 0.555);
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s ;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.5) ;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Links {
+    position: absolute;
+    top: 90% ;
+    left: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Links h6 {
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;   
+}
+
+.Links .social a {
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+.Links .social a:hover {
+    transform: scale(1.4);
+}
